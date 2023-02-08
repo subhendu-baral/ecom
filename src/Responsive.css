@@ -1,0 +1,27 @@
+@media (max-width:1400px){
+    .container{
+        max-width: 1180px;
+      }
+}
+@media (max-width:1200px){
+    ul.main-menu li {
+        margin-right: 20px;
+    }
+    .container {
+        max-width: 980px;
+    }
+}
+@media (max-width:992px){
+    div#menu-row {
+        position: absolute;
+    }
+    div#menu-row .row{
+        display: block;
+    }
+    ul.main-menu {
+        border-right: 0px solid #ddd;
+    }
+    .openmenu{
+        left: 0;
+    }
+}
